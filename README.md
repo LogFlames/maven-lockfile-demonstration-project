@@ -1,9 +1,7 @@
-# Demonstration project for Maven lockfiles
+# Demonstration of Maven lockfiles
 
 ## Generate lockfile
-```bash
-mvn io.github.chains-project:maven-lockfile:5.7.1:generate -DchecksumMode=local -DincludeMavenPlugins=true
-```
+`mvn io.github.chains-project:maven-lockfile:5.7.1:generate -DchecksumMode=local -DincludeMavenPlugins=true`
 
 ## Freeze lockfile
 ```bash
