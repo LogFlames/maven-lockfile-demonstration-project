@@ -1,7 +1,5 @@
 package io.github.logflames;
 
-import com.google.gson.Gson;
-
 /**
  * Hello world!
  */
