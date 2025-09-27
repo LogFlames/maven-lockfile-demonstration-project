@@ -1,11 +1,11 @@
 # Demonstration of Maven lockfiles
 
-## Generate lockfile
+## 1. Generate lockfile
 ```bash
 mvn io.github.chains-project:maven-lockfile:5.7.1:generate -DchecksumMode=local -DincludeMavenPlugins=true
 ```
 
-## Freeze lockfile
+## 2. Freeze lockfile
 ```bash
 mvn io.github.chains-project:maven-lockfile:5.7.1:freeze
 ```
@@ -17,7 +17,7 @@ Build project using the frozen pom
 mvn -f pom.lockfile.xml clean verify
 ```
 
-## Validate lockfile
+## 3. Validate lockfile
 ```bash
 mvn io.github.chains-project:maven-lockfile:5.7.1:validate
 ```
