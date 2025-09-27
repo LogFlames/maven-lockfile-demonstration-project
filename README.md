@@ -1,4 +1,4 @@
-# Demonstration of Maven lockfiles
+# Demonstration of Maven Lockfile
 
 ## 1. Generate lockfile
 ```bash
